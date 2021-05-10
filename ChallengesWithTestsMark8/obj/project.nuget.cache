@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K3eXpR6swxb5X5WpWvgaNKGpE6SW7I6TmNO4ZWKbkCjJ6enVMAljP3qFE099QuYFn0dEQwWzUDNBAMqeXy1Emw==",
+  "dgSpecHash": "et25NV2Dam01E3r9QE4YYm+j7zQo0WQ8goC5eEUtoYNKcvk2fTjvE68ySlcdquBK0T9qSVyAdpCtbOilr9tqjA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mandy\\Source\\Repos\\amanda-delongchamp\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
+  "projectFilePath": "C:\\Users\\mandy\\source\\repos\\amanda-delongchamp\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mandy\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Users\\mandy\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
