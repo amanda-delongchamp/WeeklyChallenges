@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ChallengesWithTestsMark8
 {
@@ -6,47 +8,131 @@ namespace ChallengesWithTestsMark8
     {
         public int AddEvenSubtractOdd(int[] numbers)
         {
-            throw new NotImplementedException();
+            int sum = 0;
+
+            foreach (int num in numbers)
+            {
+                if (num % 2 == 0)
+                {
+                    sum += num;
+                }
+
+                else
+                {
+                    sum -= num;
+                }
+            }
+
+            return sum;  
+
+            //return numbers.Where(x => x % 2 == 0).Sum() = numbers.Where(x => x % 2 != 0).Sum();
+            
         }
 
         public int GetLengthOfShortestString(string str1, string str2, string str3, string str4)
         {
-            throw new NotImplementedException();
+            var list = new List<int> { str1.Length, str2.Length, str3.Length, str4.Length };
+            return list.Min();
         }
 
         public int GetSmallestNumber(int number1, int number2, int number3, int number4)
         {
-            throw new NotImplementedException();
+            var list = new List<int> { number1, number2, number3, number4 };
+
+            return list.Min();
         }
 
         public void ChangeBusinessNameTo_TrueCoders(Business biz)
         {
-            throw new NotImplementedException();
+            biz.Name = "TrueCoders";
+
+           
         }
 
         public bool CouldFormTriangle(int sideLength1, int sideLength2, int sideLength3)
         {
-            throw new NotImplementedException();
+            var a = sideLength1;
+            var b = sideLength2;
+            var c = sideLength3;
+
+            if ( a + b > c && a + c > b && b + c > a)
+            {
+                return true;
+            }
+            else
+            {
+               return false;
+            }
+
+            
         }
 
         public bool IsStringANumber(string input)
         {
-            throw new NotImplementedException();
+            var isNumber = double.TryParse(input, out double number);
+
+            return isNumber;
         }
 
         public bool MajorityOfElementsInArrayAreNull(object[] objs)
         {
-            throw new NotImplementedException();
+            int amount = objs.Length;
+            int majority = (amount / 2) + 1;
+
+            int count = 0;
+
+            foreach (var obj in objs)
+            {
+                if (obj == null)
+                {
+                    count++;
+                }
+            }
+
+            if (count >= majority)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public double AverageEvens(int[] numbers)
         {
-            throw new NotImplementedException();
+            if (numbers == null || numbers.Length == 0)
+            {
+                return 0;
+            }
+
+            var n = numbers.Where(num => num % 2 == 0);
+
+            if (n.Count() == 0)
+            {
+                return 0;
+            }
+            else
+            {
+                return n.Average();
+            }
         }
 
         public int Factorial(int number)
         {
-            throw new NotImplementedException();
+            
+
+            if (number == 0)
+            {
+                return 1;
+            }
+            else if (number < 0)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
+
+
+            return number * Factorial(number - 1);
         }
     }
 }

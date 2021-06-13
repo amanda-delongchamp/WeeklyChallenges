@@ -96,7 +96,6 @@ C:\Users\mandy\Source\Repos\amanda-delongchamp\WeeklyChallenges\ChallengesWithTe
 C:\Users\mandy\Source\Repos\amanda-delongchamp\WeeklyChallenges\ChallengesWithTestsMark8.Tests\bin\Debug\netcoreapp2.1\ChallengesWithTestsMark8.Tests.pdb
 C:\Users\mandy\Source\Repos\amanda-delongchamp\WeeklyChallenges\ChallengesWithTestsMark8.Tests\bin\Debug\netcoreapp2.1\ChallengesWithTestsMark8.dll
 C:\Users\mandy\Source\Repos\amanda-delongchamp\WeeklyChallenges\ChallengesWithTestsMark8.Tests\bin\Debug\netcoreapp2.1\ChallengesWithTestsMark8.pdb
-C:\Users\mandy\Source\Repos\amanda-delongchamp\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp2.1\ChallengesWithTestsMark8.Tests.csprojAssemblyReference.cache
 C:\Users\mandy\Source\Repos\amanda-delongchamp\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp2.1\ChallengesWithTestsMark8.Tests.AssemblyInfoInputs.cache
 C:\Users\mandy\Source\Repos\amanda-delongchamp\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp2.1\ChallengesWithTestsMark8.Tests.AssemblyInfo.cs
 C:\Users\mandy\Source\Repos\amanda-delongchamp\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp2.1\ChallengesWithTestsMark8.Tests.csproj.CoreCompileInputs.cache
@@ -104,3 +103,4 @@ C:\Users\mandy\Source\Repos\amanda-delongchamp\WeeklyChallenges\ChallengesWithTe
 C:\Users\mandy\Source\Repos\amanda-delongchamp\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp2.1\ChallengesWithTestsMark8.Tests.dll
 C:\Users\mandy\Source\Repos\amanda-delongchamp\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp2.1\ChallengesWithTestsMark8.Tests.pdb
 C:\Users\mandy\Source\Repos\amanda-delongchamp\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp2.1\ChallengesWithTestsMark8.Tests.genruntimeconfig.cache
+C:\Users\mandy\source\repos\amanda-delongchamp\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp2.1\ChallengesWithTestsMark8.Tests.csproj.AssemblyReference.cache
